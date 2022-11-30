@@ -1,6 +1,6 @@
 # Avatar Generation with Robohash API
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a react web app where you can generate avatar image by giving any string as input in the input box. I tried to keep the design as a minimalist one.
 
 ## Available Scripts
 
