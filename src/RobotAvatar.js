@@ -35,14 +35,14 @@ const RobotAvatar = () => {
     <>
       <div className="container pb-5">
         <div className="row">
-          <div className="col-5 col-md-6">
+          <div className="col-4">
             <nav class="navbar">
               <div class="container-fluid">
                 <span class="navbar-brand mb-0 py-3 h1 font-st">Avatar<span className="G">G</span></span>
               </div>
             </nav>
           </div>
-          <div className="col-7 col-md-6 pt-3">
+          <div className="col-6 col-md-5 pt-3">
             
             <input
               type="text"
@@ -52,11 +52,14 @@ const RobotAvatar = () => {
               placeholder="Enter string"
             />
             
-            <button
+            
+          </div>
+          <div className="col-2 d-flex justify-content-start align-items-center px-0 mx-0">
+          <button
               className="btn adjust-btn d-flex justify-content-center align-items-center"
               onClick={handleGenerate}
             >
-              <i class="ri-user-add-line"></i>
+              <i class="ri-user-add-line p-1"></i>
             </button>
           </div>
         </div>
