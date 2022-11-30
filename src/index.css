@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+.box{
+  background: #ebecf0;
+}
+
+.font-st{
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 2%;
+  color: #223030;
+}
+
+.bg-red{
+  background: #420516;
+  border-radius: 5px;
+  color: #CFFDE1;
+}
+.textInputStyle{
+  padding: 10px;
+  border: none;
+}
+
+.textInputStyle::placeholder{
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+}
+
+.foot-font{
+  font-family: 'Inter', sans-serif;
+  color: #CFFDE1;
+}
+
+.morph{
+  background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
+  box-shadow: -3px -3px 6px 2px #ffffff, 5px 5px 8px 0px rgba(0, 0, 0, 0.17), 1px 2px 2px 0px rgba(0, 0, 0, 0.1);
+  transition: 0.2s ease-in-out;
+}
+
+.morph.active, .morph:focus{
+  outline: none;
+  border-color: inherit;
+  box-shadow: -3px -3px 6px 2px #ffffff, 5px 5px 8px 0px rgba(0, 0, 0, 0.17), 1px 2px 2px 0px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.adjust-btn{
+  position: absolute;
+  background: #3D5656;
+  color: #CFFDE1;
+  top: 4%;
+  right: 4.4%;
+}
+
+.G{
+  color: #68B984;
+ 
+  font-size: 1.5rem;
+}
+
+.adjust-btn:hover{
+  background:  #223030;
+  color: #CFFDE1;
+}
+
+.proper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+figure{
+  width: 180px;
+  height: 180px;
+  background: #FED049;
+  border-radius: 10px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+/* .bootlist{
+  height: 100%;
+} */
+
+.botimage{
+  object-fit: cover;
+}
+
+.footer{
+  margin-top: 500px;
+  background: #3D5656;
+  position: fixed;
+  bottom: 0;
+}
+
+
+@media only screen and (min-width: 300px) {
+  .adjust-btn{
+    top: 4%;
+    right: 4.4%;
+  }
+}
+
+@media only screen and (min-width: 360px) {
+  .adjust-btn{
+    top: 2.8%;
+    right: 4.4%;
+  }
+}
+
+@media only screen and (min-width: 375px) {
+  .adjust-btn{
+    top: 3%;
+    right: 4.4%;
+  }
+}
+
+@media only screen and (min-width: 390px) {
+  .adjust-btn{
+    top: 2.2%;
+    right: 4.4%;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  .adjust-btn{
+    top: 1.8%;
+    right: 8.2%;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .adjust-btn{
+    top: 1.8%;
+    right: 5%;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .adjust-btn{
+    right: 8.2%;
+    top: 2.8%;
+  }
+}
