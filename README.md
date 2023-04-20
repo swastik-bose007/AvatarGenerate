@@ -2,6 +2,11 @@
 
 This is a react web app where you can generate avatar image by giving any string as input in the input box. I tried to keep the design as a minimalist one.
 
+# DEMO
+
+![image](https://user-images.githubusercontent.com/98341839/233446218-e4eec8d9-6171-4c88-a694-d7189d4f7ae2.png)
+
+
 # Site Link
 https://avatargeneration.netlify.app/
 
