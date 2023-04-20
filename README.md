@@ -4,7 +4,7 @@ This is a react web app where you can generate avatar image by giving any string
 
 # DEMO
 
-![image](https://user-images.githubusercontent.com/98341839/233446218-e4eec8d9-6171-4c88-a694-d7189d4f7ae2.png)
+![image](https://user-images.githubusercontent.com/98341839/233448757-c5776cff-3d8f-47c1-b8fe-82d5abf7f766.png)
 
 
 # Site Link
